@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+<meta name="voise recognizer" content="initial-scale=1.0 , maximum-scale=1.0 , user-scale=1" >
+<title>VOICE RECOGNITION</title>
+<style>
+
+body{
+font-family:monospace;
+font-size:16px;
+margin:0;
+background:linear-gradient(to left bottom, #7B77C8, #94B3E6);
+display:flex;
+align-items: center;
+justify-content: center;
+min-height:100vh;
+color:#000;
+}
+
+.vtox{
+width:600px;
+text-align:center;
+}
+
+#vtext{
+width:100%;
+height: 200px;
+border-radius: 10px;
+resize:none;
+padding:10px;
+font-size:20px;
+margin-bottom:10px;
+}
+
+h1{
+color:#fff;
+}
+
+</style>
+</head>
+
+
+
+<body>
+<div class="vtox">
+<h1>Voice To Text Converter </h1>
+<form action="index.php" method="POST" >
+<textarea id="vtext" name="data"></textarea>
+</form>
+</div>
+
+<script type="text/javascript" src="m3.js"></script>
+
+</body>
+</html>
